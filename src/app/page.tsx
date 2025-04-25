@@ -95,7 +95,7 @@ export default function Home() {
                 <CardTitle className="flex items-center">
                   {/* Icon Placeholder */}
                   <div className="bg-gray-200 border-2 border-dashed rounded-xl w-8 h-8 mr-2" />
-                  Thought Capture (You'll never look at again)
+                  Thought Capture (You&apos;ll never look at again)
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -159,21 +159,21 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-background p-6 rounded-lg shadow-sm">
               <p className="italic mb-4">
-                "I've planned 83 projects and started none."
+                &quot;I&apos;ve planned 83 projects and started none.&quot;
               </p>
               <p className="font-medium">— Carl, Aspiring Procrastinator</p>
             </div>
             <div className="bg-background p-6 rounded-lg shadow-sm">
               <p className="italic mb-4">
-                "It replaced my to-do list app. I just open it and panic
-                instead."
+                &quot;It replaced my to-do list app. I just open it and panic
+                instead.&quot;
               </p>
               <p className="font-medium">— Lea, Overthinker</p>
             </div>
             <div className="bg-background p-6 rounded-lg shadow-sm">
               <p className="italic mb-4">
-                "It's like Notion and my anxiety had a baby and forgot to raise
-                it."
+                &quot;It&apos;s like Notion and my anxiety had a baby and forgot
+                to raise it.&quot;
               </p>
               <p className="font-medium">— Milo, procrastination maximalist</p>
             </div>
@@ -218,13 +218,13 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap justify-center md:justify-end space-x-4 text-sm">
             <a href="#" className="hover:underline">
-              Terms of Service (you won't read)
+              Terms of Service (you won&apos;t read)
             </a>
             <a href="#" className="hover:underline">
               Privacy Policy (we collect dust)
             </a>
             <a href="#" className="hover:underline">
-              Careers (We're not hiring)
+              Careers (We&apos;re not hiring)
             </a>
           </div>
         </div>

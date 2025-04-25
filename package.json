@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "bun run build",
-    "deploy": "gh-pages -d out -t true"
+    "deploy": "bun run build && touch ./out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
@@ -19,7 +18,8 @@
     "next": "15.4.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "tailwind-merge": "^3.3.1"
+    "tailwind-merge": "^3.3.1",
+    "touch-cli": "^0.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
